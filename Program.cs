@@ -3,24 +3,21 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-// RUTA BASE JUNTO AL .CS
+// Ruta base junto al .CS
 string carpetaBase = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName, "Cuento y Resultado");
 
-// CREAR CARPETA SI NO EXISTE
-Directory.CreateDirectory(carpetaBase);
-
-// RUTAS DE ARCHIVOS
+// Rutas de archivos
 string cuentoPath = Path.Combine(carpetaBase, "cuento.txt");       // Archivo de entrada
 string resultadoPath = Path.Combine(carpetaBase, "resultado.txt"); // Archivo de salida
 
-// VARIABLES INICIALES
+// Variables iniciales
 string nombre = "Bitin";                        // Nombre del protagonista
 string meta = "descubrir el origen del universo"; // Meta del protagonista
 string vacia = "";                              // Cadena vacía
 string espacios = "   ";                        // Cadena con solo espacios
 var resultados = new StringBuilder();           // Acumulador de resultados
 
-// VALIDACIÓN DE EXISTENCIA DEL CUENTO
+// Validar existencia del archivo de cuento
 if (!File.Exists(cuentoPath))
 {
     Console.WriteLine("Archivo cuento.txt no encontrado en carpeta 'Cuento y Resultado'.");
@@ -104,6 +101,13 @@ resultados.AppendLine();
 resultados.AppendLine("29. ToUpperInvariant(): " + "bitín".ToUpperInvariant()); // Mayúsculas sin depender de cultura
 resultados.AppendLine();
 
-// GUARDAR RESULTADOS EN ARCHIVO
+// Guardar resultados en archivo
 File.WriteAllText(resultadoPath, resultados.ToString());
-Console.WriteLine("Retos completados. Revisa la carpeta 'Cuento y Resultado' junto al código.");
+Console.WriteLine("RETOS COMPLETADOS. Revisa la carpeta 'Cuento y Resultado' junto al código.");
+
+// Por si se quiere ver el resultado en consola también
+Console.WriteLine("¿Quieres ver también el resultado aqui en consola? S/N");
+if (Console.ReadLine().Trim().ToUpper() == "S")
+{
+    Console.WriteLine(resultados);
+}
