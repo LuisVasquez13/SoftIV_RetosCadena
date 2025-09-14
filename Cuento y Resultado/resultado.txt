@@ -1,0 +1,58 @@
+1. string.Concat(): BitinExplorador
+
+2. string.Join(): En el vasto universo digital, Bitín era un explorador curioso |  Viajaba entre ciudades luminosas y atravesaba firewalls misteriosos |  Su meta era descubrir el origen del mundo binario, lleno de ceros y unos |  A veces soñaba con la Nube, donde los datos flotaban libres | 
+
+3. string.Format(): El cuento tiene 266 caracteres y 43 palabras
+
+4. string.Interpolation: El protagonista es Bitin y busca descubrir el origen del universo
+
+5. Convert.ToString(): Longitud del cuento: 266
+
+6. IndexOf(): 168
+
+7. LastIndexOf(): 192
+
+8. Contains(): Sí contiene 'Nube'
+
+9. StartsWith(): True
+
+10. EndsWith(): False
+
+11. Substring(): ciudades luminosas
+
+12. Remove(): verso digital, Bitín era un explorador curioso. Viajaba entre ciudades luminosas y atravesaba firewalls misteriosos. Su meta era descubrir el origen del mundo binario, lleno de ceros y unos. A veces soñaba con la Nube, donde los datos flotaban libres.
+
+13. Replace(): En el vasto universo digital, ProgramaX era un explorador curioso. Viajaba entre ciudades luminosas y atravesaba firewalls misteriosos. Su meta era descubrir el origen del mundo binario, lleno de ceros y unos. A veces soñaba con la Nube, donde los datos flotaban libres.
+
+14. Insert(): En el vasto universo digital, Bitín era un explorador curioso. Viajaba entre ciudades luminosas y atravesaba firewall(IMPORTANTE)s misteriosos. Su meta era descubrir el origen del mundo binario, lleno de ceros y unos. A veces soñaba con la Nube, donde los datos flotaban libres.
+
+15. PadLeft(): *****Bitin
+
+16. PadRight(): Nube--------
+
+17. Trim(): firewall
+
+18. TrimStart(): Mundo binario
+
+19. TrimEnd(): Bitin explorador
+
+20. Split(): En, el, vasto, universo, digital,, Bitín, era, un, explorador, curioso.
+
+21. Equals(): Diferentes
+
+22. Compare(): Bitin va primero
+
+23. CompareTo(): Resultado: 1 (positivo = Nube > Cielo)
+
+24. IsNullOrEmpty(): True
+
+25. IsNullOrWhiteSpace(): True
+
+26. ToLower(): en el vasto universo digital, bitín era un explorador curioso. viajaba entre ciudades luminosas y atravesaba firewalls misteriosos. su meta era descubrir el origen del mundo binario, lleno de ceros y unos. a veces soñaba con la nube, donde los datos flotaban libres.
+
+27. ToUpper(): EN EL VASTO UNIVERSO DIGITAL, BITÍN ERA UN EXPLORADOR CURIOSO. VIAJABA ENTRE CIUDADES LUMINOSAS Y ATRAVESABA FIREWALLS MISTERIOSOS. SU META ERA DESCUBRIR EL ORIGEN DEL MUNDO BINARIO, LLENO DE CEROS Y UNOS. A VECES SOÑABA CON LA NUBE, DONDE LOS DATOS FLOTABAN LIBRES.
+
+28. ToLowerInvariant(): nube
+
+29. ToUpperInvariant(): BITÍN
+
